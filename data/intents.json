@@ -1,0 +1,464 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening",
+        "good afternoon",
+        "what's up",
+        "howdy",
+        "greetings",
+        "sup",
+        "yo",
+        "hi there",
+        "hey there",
+        "halo",
+        "hai",
+        "hei",
+        "selamat pagi",
+        "selamat malam",
+        "selamat siang",
+        "selamat sore",
+        "apa kabar",
+        "halo semuanya",
+        "permisi",
+        "hei bot",
+        "pagi",
+        "malam",
+        "sore",
+        "hai bot"
+      ],
+      "responses": {
+        "en": [
+          "Hello! How can I help you today?",
+          "Hey there! What can I do for you?",
+          "Hi! I'm here to help. What do you need?",
+          "Hello! Feel free to ask me anything about our subscription plans."
+        ],
+        "id": [
+          "Halo! Ada yang bisa saya bantu hari ini?",
+          "Hai! Dengan senang hati saya siap membantu kamu.",
+          "Halo! Silakan tanya apa saja tentang langganan kami.",
+          "Hai! Ada yang bisa saya bantu?"
+        ]
+      }
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "take care",
+        "later",
+        "see ya",
+        "have a good day",
+        "talk to you later",
+        "gotta go",
+        "i'm done",
+        "sampai jumpa",
+        "dadah",
+        "selamat tinggal",
+        "pamit dulu",
+        "cabut",
+        "dah",
+        "bye bye",
+        "ok makasih",
+        "oke makasih",
+        "udah cukup",
+        "selamat jalan",
+        "sampai nanti",
+        "yaudah makasih"
+      ],
+      "responses": {
+        "en": [
+          "Goodbye! Have a great day!",
+          "See you later! Don't hesitate to come back if you need help.",
+          "Take care! Feel free to reach out anytime.",
+          "Bye! Hope I was helpful."
+        ],
+        "id": [
+          "Sampai jumpa! Semoga harimu menyenangkan!",
+          "Dadah! Jangan ragu untuk kembali jika butuh bantuan.",
+          "Selamat tinggal! Semoga bisa membantu lagi nanti.",
+          "Oke, sampai jumpa!"
+        ]
+      }
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "appreciate it",
+        "cheers",
+        "thank you so much",
+        "thanks a lot",
+        "many thanks",
+        "thx",
+        "ty",
+        "that was helpful",
+        "terima kasih",
+        "makasih",
+        "thanks ya",
+        "makasih banyak",
+        "thx ya",
+        "trims",
+        "tengkyu",
+        "terima kasih banyak",
+        "sangat membantu",
+        "helpful banget",
+        "oke thanks",
+        "oke makasih"
+      ],
+      "responses": {
+        "en": [
+          "You're welcome! Is there anything else I can help you with?",
+          "Happy to help! Let me know if you have more questions.",
+          "Anytime! Don't hesitate to ask if you need anything else.",
+          "Glad I could help!"
+        ],
+        "id": [
+          "Sama-sama! Ada lagi yang bisa saya bantu?",
+          "Dengan senang hati! Jangan ragu untuk bertanya lagi.",
+          "Siap! Kalau ada pertanyaan lain, feel free ya.",
+          "Senang bisa membantu!"
+        ]
+      }
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "who are you",
+        "what should I call you",
+        "what are you",
+        "are you a bot",
+        "are you a human",
+        "are you real",
+        "introduce yourself",
+        "tell me about yourself",
+        "siapa namamu",
+        "siapa kamu",
+        "nama kamu apa",
+        "kamu siapa",
+        "kamu bot atau manusia",
+        "kamu robot ya",
+        "perkenalkan dirimu",
+        "nama lo apa",
+        "lo siapa",
+        "ini bot ya"
+      ],
+      "responses": {
+        "en": [
+          "I'm a support chatbot here to help you with subscription questions!",
+          "You can call me Bot! I'm here to assist with any subscription-related queries.",
+          "I'm an AI assistant built to help you manage your subscription. How can I help?"
+        ],
+        "id": [
+          "Saya adalah chatbot yang siap membantu pertanyaan seputar langganan kamu!",
+          "Panggil saja saya Bot! Saya di sini untuk bantu urusan langganan kamu.",
+          "Saya asisten virtual untuk layanan pelanggan. Ada yang bisa saya bantu?"
+        ]
+      }
+    },
+    {
+      "tag": "subscription_plans",
+      "patterns": [
+        "what plans do you have",
+        "show me your subscription plans",
+        "what are the pricing options",
+        "how much does it cost",
+        "tell me about your plans",
+        "what packages are available",
+        "pricing",
+        "price list",
+        "how much is the subscription",
+        "what is the cheapest plan",
+        "what is the most expensive plan",
+        "plan options",
+        "subscription options",
+        "available plans",
+        "produk apa saja",
+        "paket apa saja yang tersedia",
+        "berapa harga langganan",
+        "ada paket apa",
+        "info harga",
+        "pilihan paket langganan",
+        "daftar harga",
+        "harga paket",
+        "paket paling murah",
+        "paket paling mahal",
+        "ada paket berapa",
+        "pilihan paket",
+        "mau lihat paket",
+        "kasih info paket",
+        "paket apa aja"
+      ],
+      "responses": {
+        "en": [
+          "We offer three plans:\n- Basic: $9/month — core features\n- Pro: $19/month — advanced features + priority support\n- Enterprise: $49/month — unlimited everything + dedicated support\nWhich plan interests you?",
+          "Our plans start at $9/month. We have Basic, Pro, and Enterprise tiers. Would you like details on any specific plan?"
+        ],
+        "id": [
+          "Kami punya tiga paket:\n- Basic: $9/bulan — fitur dasar\n- Pro: $19/bulan — fitur lengkap + prioritas support\n- Enterprise: $49/bulan — semua fitur + dedicated support\nMana yang menarik buat kamu?",
+          "Paket kami mulai dari $9/bulan. Ada Basic, Pro, dan Enterprise. Mau info lebih lanjut tentang paket tertentu?"
+        ]
+      }
+    },
+    {
+      "tag": "subscription_cancel",
+      "patterns": [
+        "cancel my subscription",
+        "I want to cancel",
+        "how do I cancel",
+        "stop my plan",
+        "unsubscribe",
+        "I want to stop my subscription",
+        "cancel account",
+        "how to cancel",
+        "cancel plan",
+        "I don't want to continue",
+        "end my subscription",
+        "batalkan langganan saya",
+        "saya mau berhenti berlangganan",
+        "cara batal langganan",
+        "hentikan paket saya",
+        "berhenti langganan",
+        "mau cancel",
+        "mau berhenti",
+        "cancel dong",
+        "stop langganan",
+        "gak mau lanjut langganan",
+        "mau hapus langganan",
+        "matiin langganan",
+        "nonaktifkan langganan"
+      ],
+      "responses": {
+        "en": [
+          "To cancel your subscription: go to Account Settings → Subscription → Cancel Plan. Your access continues until the end of the billing period. Need help with anything else?",
+          "You can cancel anytime with no penalty. Just go to Account Settings → Subscription → Cancel Plan. Is there anything I can help resolve before you cancel?"
+        ],
+        "id": [
+          "Untuk membatalkan langganan: buka Pengaturan Akun → Langganan → Batalkan Paket. Akses kamu tetap aktif sampai akhir periode tagihan. Ada yang bisa saya bantu lagi?",
+          "Kamu bisa batal kapan saja tanpa penalti. Buka Pengaturan Akun → Langganan → Batalkan Paket. Ada masalah yang bisa saya bantu selesaikan dulu?"
+        ]
+      }
+    },
+    {
+      "tag": "subscription_upgrade",
+      "patterns": [
+        "upgrade my plan",
+        "switch to a higher plan",
+        "I want more features",
+        "move to pro",
+        "upgrade subscription",
+        "how to upgrade",
+        "change to pro",
+        "change to enterprise",
+        "get a better plan",
+        "I need more storage",
+        "I need more users",
+        "expand my plan",
+        "upgrade paket saya",
+        "naik ke paket lebih tinggi",
+        "saya mau fitur lebih",
+        "pindah ke pro",
+        "tingkatkan langganan",
+        "mau upgrade",
+        "ganti ke paket lebih tinggi",
+        "naik paket",
+        "mau paket pro",
+        "mau paket enterprise",
+        "butuh fitur lebih",
+        "mau tambah fitur",
+        "upgrade dong"
+      ],
+      "responses": {
+        "en": [
+          "To upgrade: go to Account Settings → Subscription → Change Plan. The new rate is prorated and applies immediately. Want me to explain what each plan includes?",
+          "Upgrading is easy! Head to Account Settings → Subscription → Change Plan. You'll only be charged the difference for the remaining billing period."
+        ],
+        "id": [
+          "Untuk upgrade: buka Pengaturan Akun → Langganan → Ganti Paket. Tarif baru dihitung secara prorata dan langsung berlaku. Mau saya jelaskan perbedaan tiap paket?",
+          "Gampang banget! Buka Pengaturan Akun → Langganan → Ganti Paket. Kamu hanya ditagih selisihnya untuk sisa periode tagihan."
+        ]
+      }
+    },
+    {
+      "tag": "subscription_downgrade",
+      "patterns": [
+        "downgrade my plan",
+        "switch to a lower plan",
+        "move to basic",
+        "I want a cheaper plan",
+        "reduce my plan",
+        "downgrade subscription",
+        "cancel pro keep basic",
+        "I don't need all features",
+        "turunkan paket saya",
+        "pindah ke paket lebih murah",
+        "mau paket basic",
+        "kurangi paket",
+        "downgrade dong",
+        "mau paket yang lebih murah",
+        "ganti ke basic",
+        "gak butuh semua fitur",
+        "mau hemat"
+      ],
+      "responses": {
+        "en": [
+          "To downgrade: go to Account Settings → Subscription → Change Plan and select a lower tier. The change takes effect at the start of your next billing cycle.",
+          "You can downgrade anytime. Go to Account Settings → Subscription → Change Plan. Note that the change applies from your next billing date."
+        ],
+        "id": [
+          "Untuk downgrade: buka Pengaturan Akun → Langganan → Ganti Paket dan pilih paket lebih rendah. Perubahan berlaku di awal siklus tagihan berikutnya.",
+          "Kamu bisa downgrade kapan saja. Buka Pengaturan Akun → Langganan → Ganti Paket. Perubahan berlaku mulai tanggal tagihan berikutnya ya."
+        ]
+      }
+    },
+    {
+      "tag": "subscription_status",
+      "patterns": [
+        "what is my current plan",
+        "check my subscription",
+        "what plan am I on",
+        "my subscription status",
+        "when does my plan renew",
+        "when is my next billing date",
+        "is my subscription active",
+        "subscription details",
+        "how long is my subscription",
+        "when does my subscription expire",
+        "paket saya sekarang apa",
+        "cek langganan saya",
+        "saya pakai paket apa",
+        "status langganan saya",
+        "kapan paket saya diperpanjang",
+        "kapan tagihan berikutnya",
+        "langganan saya masih aktif",
+        "detail langganan",
+        "paket saya aktif gak",
+        "langganan saya kapan habis",
+        "mau cek paket"
+      ],
+      "responses": {
+        "en": [
+          "You can check your current plan, renewal date, and usage in Account Settings → Subscription.",
+          "Your subscription details — including plan type, status, and next billing date — are all in Account Settings → Subscription."
+        ],
+        "id": [
+          "Kamu bisa cek paket aktif, tanggal perpanjangan, dan penggunaan di Pengaturan Akun → Langganan.",
+          "Detail langganan kamu — termasuk jenis paket, status, dan tanggal tagihan berikutnya — ada di Pengaturan Akun → Langganan."
+        ]
+      }
+    },
+    {
+      "tag": "subscription_billing",
+      "patterns": [
+        "billing issue",
+        "I was charged incorrectly",
+        "payment failed",
+        "update my payment method",
+        "change credit card",
+        "invoice",
+        "I need a receipt",
+        "billing history",
+        "why was I charged",
+        "double charged",
+        "refund",
+        "I want a refund",
+        "charge is wrong",
+        "masalah tagihan",
+        "saya kena charge yang salah",
+        "pembayaran gagal",
+        "ganti metode pembayaran",
+        "ganti kartu kredit",
+        "invoice dong",
+        "minta struk",
+        "riwayat tagihan",
+        "kenapa saya ditagih",
+        "kena charge dua kali",
+        "minta refund",
+        "tagihan salah",
+        "bayar gagal",
+        "kartu ditolak"
+      ],
+      "responses": {
+        "en": [
+          "For billing issues, go to Account Settings → Billing to review your invoices and update your payment method. For disputes or refunds, contact support@example.com.",
+          "You can manage all billing details in Account Settings → Billing. If you were incorrectly charged, please contact support@example.com with your invoice number."
+        ],
+        "id": [
+          "Untuk masalah tagihan, buka Pengaturan Akun → Tagihan untuk melihat invoice dan ganti metode pembayaran. Untuk dispute atau refund, hubungi support@example.com.",
+          "Semua detail tagihan ada di Pengaturan Akun → Tagihan. Kalau ada kesalahan tagihan, hubungi support@example.com dengan nomor invoice kamu."
+        ]
+      }
+    },
+    {
+      "tag": "subscription_free_trial",
+      "patterns": [
+        "do you have a free trial",
+        "is there a trial period",
+        "can I try for free",
+        "free trial",
+        "try before buy",
+        "how long is the trial",
+        "trial plan",
+        "ada free trial gak",
+        "bisa coba gratis dulu",
+        "ada masa percobaan gak",
+        "trial gratis",
+        "coba dulu gratis",
+        "berapa lama masa trial",
+        "paket trial",
+        "mau coba dulu"
+      ],
+      "responses": {
+        "en": [
+          "Yes! We offer a 14-day free trial on all plans — no credit card required. You can start your trial at our website.",
+          "We have a 14-day free trial available. Sign up on our website and explore all Pro features at no cost."
+        ],
+        "id": [
+          "Ada! Kami menawarkan free trial 14 hari untuk semua paket — tanpa perlu kartu kredit. Kamu bisa mulai di website kami.",
+          "Ada masa percobaan gratis 14 hari. Daftar di website kami dan coba semua fitur Pro tanpa biaya."
+        ]
+      }
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "I need help",
+        "can you help me",
+        "what can you do",
+        "how does this work",
+        "what do you support",
+        "menu",
+        "tolong",
+        "butuh bantuan",
+        "bisa bantu apa",
+        "kamu bisa apa",
+        "cara pakainya gimana",
+        "fitur apa aja",
+        "bantuan",
+        "minta tolong",
+        "help dong"
+      ],
+      "responses": {
+        "en": [
+          "I can help you with:\n- Subscription plans & pricing\n- Upgrading or downgrading your plan\n- Cancelling your subscription\n- Billing & payment issues\n- Free trial information\nWhat do you need help with?",
+          "Sure! Ask me about our plans, billing, upgrades, cancellations, or free trial. What would you like to know?"
+        ],
+        "id": [
+          "Saya bisa bantu kamu dengan:\n- Info paket & harga langganan\n- Upgrade atau downgrade paket\n- Membatalkan langganan\n- Masalah tagihan & pembayaran\n- Info free trial\nMau tanya apa?",
+          "Tentu! Tanya saya tentang paket, tagihan, upgrade, pembatalan, atau free trial. Mau tahu apa?"
+        ]
+      }
+    }
+  ]
+}

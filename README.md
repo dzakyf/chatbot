@@ -1,6 +1,6 @@
 # spaCy Chatbot 
 
-A Python + spaCy chatbot backend. 
+A Python + spaCy chatbot backend. For learn purpose only.
 
 ## Project Structure
 
@@ -57,10 +57,3 @@ User Input
     
 4. Bot Response
 ```
-
-## Extending
-
-- **Add intents**: edit `data/intents.json`
-- **Multi-turn flows**: extend `_update_context()` in `dialogue.py`
-- **Better NLU**: swap similarity matching for a trained classifier
-- **Add a frontend**: plug `DialogueManager.process()` into a FastAPI endpoint
